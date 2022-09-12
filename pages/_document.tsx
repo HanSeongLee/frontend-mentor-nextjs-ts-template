@@ -1,15 +1,19 @@
 import {Head, Html, Main, NextScript} from 'next/document';
+import DefaultHead from 'components/DefaultHead';
 
 function Document() {
     return (
         <Html>
-            <Head />
+            <Head>
+                <DefaultHead />
+            </Head>
             <body>
-                <Main/>
-                <NextScript/>
+                <Main />
+                <NextScript />
             </body>
         </Html>
     );
 };
+
 
 export default Document;
