@@ -14,3 +14,45 @@ npm run dev
 # or
 yarn dev
 ```
+
+## Commit Message Convention
+
+Commit messages in this project should follow the following format to ensure consistency and clarity:
+
+```
+<type>(<scope>): <message>
+```
+- `<type>`: The type of the commit, which must be one of the following:
+
+| Type       | Description                                       |
+|------------|---------------------------------------------------|
+| `feat`     | Add a new feature, enhancement, or functionality. |
+| `fix`      | Fix a bug or resolve an issue.                    |
+| `perf`     | Optimize code for improved performance.            |
+| `refactor` | Restructure code without altering its behavior.    |
+| `style`    | Address code formatting and style conventions.     |
+| `docs`     | Make modifications to documentation.               |
+| `test`     | Add, modify, or refactor test cases.              |
+| `chore`    | Handle routine tasks, maintenance, or dependency management. |
+| `revert`   | Revert previous code changes.                      |
+| `move`     | Relocate files, directories, or code to a new location. |
+| `remove`   | Delete redundant or unnecessary code, files, or directories. |
+| `ci`       | Update Continuous Integration/Continuous Deployment (CI/CD) configurations. |
+
+- `<scope>` (optional): The scope or context of the commit, indicating the affected module, file, or feature.
+- `<message>`: A concise and clear description of the commit.
+
+### Example Commit Messages
+
+Here are some example commit messages that adhere to the convention:
+
+- `feat(auth): add user login functionality`
+- `fix(api): resolve data processing error`
+- `style(css): update styling for the login page`
+- `docs(readme): update project description`
+- `test(unit): add tests for user management module`
+- `chore(deps): update package dependencies`
+- `revert: revert previous commit`
+- `move(src): move model classes to a new directory`
+- `remove(deprecated): remove unused functions`
+- `ci(travis): update test environment configuration`
