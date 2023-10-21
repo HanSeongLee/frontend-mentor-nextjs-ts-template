@@ -39,3 +39,11 @@ yarn-error.log*
 
 # Sentry Auth Token
 .sentryclirc
+
+# IDEA
+.idea
+
+# env
+!.env.template
+.env
+.env.*
