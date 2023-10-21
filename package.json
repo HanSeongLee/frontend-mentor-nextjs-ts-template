@@ -10,7 +10,7 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "commit": "cz"
+    "commit": "./node_modules/cz-customizable/standalone.js"
   },
   "dependencies": {
     "@sentry/nextjs": "^7.64.0",
@@ -38,6 +38,7 @@
     "@types/react": "^18.2.29",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^7.0.0",
     "eslint": "8.9.0",
     "eslint-config-next": "^13.2.4",
     "storybook": "^7.0.9",
@@ -47,6 +48,9 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    },
+    "cz-customizable": {
+      "config": ".cz-config.js"
     }
   }
 }
