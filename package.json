@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "commit": "cz"
   },
   "dependencies": {
     "@sentry/nextjs": "^7.64.0",
@@ -35,10 +36,17 @@
     "@storybook/theming": "^7.0.9",
     "@types/node": "^20.8.7",
     "@types/react": "^18.2.29",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "8.9.0",
     "eslint-config-next": "^13.2.4",
     "storybook": "^7.0.9",
     "storybook-addon-pseudo-states": "^2.0.1",
     "typescript": "^5.2.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
