@@ -10,6 +10,7 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
+    "prepare": "husky install && chmod ug+x .husky/*",
     "commit": "./node_modules/cz-customizable/standalone.js"
   },
   "dependencies": {
@@ -24,6 +25,8 @@
     "sass": "^1.49.8"
   },
   "devDependencies": {
+    "@commitlint/cli": "^18.0.0",
+    "@commitlint/config-conventional": "^18.0.0",
     "@storybook/addon-a11y": "^7.0.9",
     "@storybook/addon-essentials": "^7.0.9",
     "@storybook/addon-interactions": "^7.0.9",
@@ -41,6 +44,7 @@
     "cz-customizable": "^7.0.0",
     "eslint": "8.9.0",
     "eslint-config-next": "^13.2.4",
+    "husky": "^8.0.3",
     "storybook": "^7.0.9",
     "storybook-addon-pseudo-states": "^2.0.1",
     "typescript": "^5.2.2"
