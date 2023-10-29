@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.0.1](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/compare/v1.0.0...v1.0.1) (2023-10-29)
+
+
+### 🐛 Bug Fixes
+
+* resolve conflict between Next.js Image and Storybook ([2a0e54b](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/commit/2a0e54b24b0aaecdef0c87b52cbcc20655249f91))
+
 ## 1.0.0 (2023-10-23)
 
 
