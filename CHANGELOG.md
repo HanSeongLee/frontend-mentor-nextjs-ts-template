@@ -1,5 +1,19 @@
 # 🚦 CHANGELOG
 
+## [1.1.0](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/compare/v1.0.2...v1.1.0) (2023-12-24)
+
+
+### ✨ Features
+
+* add color stylesheet generator ([beae8f6](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/commit/beae8f65c87a50517835b7fb5cfd3ff541c40ad1))
+* add next-seo ([3787a4c](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/commit/3787a4c689455c6c6c3be2fc11c22cb78447e93c))
+* add typography style ([209373f](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/commit/209373f4fc68c7510bff4ea56f2b79a1fd5ff80f))
+
+
+### 🐛 Bug Fixes
+
+* correct desktop breakpoint ([ddcd42c](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/commit/ddcd42ca62c1476f20b6511f7b1ad0d7c4c31e67))
+
 ## [1.0.2](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/compare/v1.0.1...v1.0.2) (2023-11-11)
 
 
