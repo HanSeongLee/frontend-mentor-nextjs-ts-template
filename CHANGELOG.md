@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.1.1](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/compare/v1.1.0...v1.1.1) (2023-12-26)
+
+
+### 🐛 Bug Fixes
+
+* correct color name replacement issue ([aee8eb1](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/commit/aee8eb17a4e11ec376d483a7e8bbf40ab8c52b7f))
+
 ## [1.1.0](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/compare/v1.0.2...v1.1.0) (2023-12-24)
 
 
