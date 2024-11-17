@@ -1,8 +1,8 @@
 # Frontend Mentor NextJS TS Template
 ![GitHub package.json version (subfolder of monorepo)](https://img.shields.io/github/package-json/v/HanSeongLee/frontend-mentor-nextjs-ts-template)
 
-![Next.JS:v13.5.6](https://img.shields.io/badge/v13.5.6-575757?logo=next.js&label=Next.js&labelColor=000000)
-![React:v18.2.0](https://img.shields.io/badge/v18.2.0-575757?logo=react&logoColor=000000&label=React&labelColor=61DAFB)
+![Next.JS:v15.0.3](https://img.shields.io/badge/v15.0.3-575757?logo=next.js&label=Next.js&labelColor=000000)
+![React:v18.3.1](https://img.shields.io/badge/v18.3.1-575757?logo=react&logoColor=000000&label=React&labelColor=61DAFB)
 ![TypeScript:v5.2.2](https://img.shields.io/badge/v5.2.2-575757?logo=typescript&logoColor=FFFFFF&label=TypeScript&labelColor=3178C6)
 ![Sass:v1.49.8](https://img.shields.io/badge/v1.49.8-575757?logo=sass&logoColor=FFFFFF&label=Sass&labelColor=CC6699)
 ![Storybook:v7.0.9](https://img.shields.io/badge/v7.0.9-575757?logo=sass&logoColor=FFFFFF&label=Storybook&labelColor=FF4785)
