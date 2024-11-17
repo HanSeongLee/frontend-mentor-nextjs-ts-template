@@ -1,5 +1,19 @@
 # 🚦 CHANGELOG
 
+## [1.2.0](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/compare/v1.1.1...v1.2.0) (2024-11-17)
+
+### ✨ Features
+
+* migrate from npm to pnpm ([d1a81af](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/commit/d1a81afadff3090c5e6ccade6665ff3e8913ab13))
+* migrate from v13 to v15 ([#1](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/issues/1)) ([91936ae](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/commit/91936aeb74318962094c27c0ed8fa61384102b69))
+
+### 🐛 Bug Fixes
+
+* **ci:** fix semantic release command ([69829b1](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/commit/69829b1a5669ff595084d63556860b983085b7f8))
+* **commitlint.config:** add some rules ([211596c](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/commit/211596cad7f49aac93a8b98da7e469f8176bddc5))
+* **commitlint.config:** disable some rules ([4616f7a](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/commit/4616f7a237af17b189550c3714243989242150ab))
+* **commitlint.config:** remove some rules ([1569c5c](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/commit/1569c5c0d0bc23265ef2def798290db89db091b1))
+
 ## [1.1.1](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/compare/v1.1.0...v1.1.1) (2023-12-26)
 
 
