@@ -1,4 +1,4 @@
-import { BRAND_COLORS, Color, COLORS } from './styles/colors';
+import { BRAND_COLORS, Color, COLORS } from '@/styles/colors';
 import * as fs from 'fs';
 import * as path from 'path';
 
