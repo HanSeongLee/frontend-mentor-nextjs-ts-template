@@ -1,10 +1,13 @@
-import type { StorybookConfig } from "@storybook/nextjs";
+import type { StorybookConfig } from '@storybook/nextjs';
+import path from 'path';
+import { TsconfigPathsPlugin } from 'tsconfig-paths-webpack-plugin';
+
 const config: StorybookConfig = {
   stories: [
-    '../components/**/*.mdx',
-    '../components/**/*.stories.@(js|jsx|ts|tsx)',
-    '../pages/**/*.mdx',
-    '../pages/**/*.stories.@(js|jsx|ts|tsx)'
+    '../src/components/**/*.mdx',
+    '../src/components/**/*.stories.@(js|jsx|ts|tsx)',
+    '../src/app/**/*.mdx',
+    '../src/app/**/stories.@(js|jsx|ts|tsx)'
   ],
   addons: [
     '@storybook/addon-links',
@@ -22,24 +25,35 @@ const config: StorybookConfig = {
   },
   staticDirs: ['../public'],
   webpackFinal: async config => {
+    if (config.resolve) {
+      config.resolve.plugins = [new TsconfigPathsPlugin()];
+      config.resolve.alias = {
+        ...config.resolve?.alias,
+        '@': [path.resolve(__dirname, '../src')],
+      };
+    }
+
     const imageRule = config.module?.rules?.find(rule => {
-      const test = (rule as { test: RegExp }).test
+      const test = (rule as { test: RegExp }).test;
 
       if (!test) {
-        return false
+        return false;
       }
 
       return test.test('.svg')
-    }) as { [key: string]: any }
+    }) as { [key: string]: any; };
 
-    imageRule.exclude = /\.svg$/
+    imageRule.exclude = /\.svg$/;
 
     config.module?.rules?.push({
       test: /\.svg$/,
       use: ['@svgr/webpack']
-    })
+    });
 
-    return config
+    return config;
   },
+  env: config => ({
+    ...config,
+  }),
 };
 export default config;
