@@ -5,6 +5,7 @@ import Home from './page';
 const meta: Meta<typeof Home> = {
     title: 'Pages/Home',
     component: Home,
+    tags: ['autodocs'],
     parameters: {
         layout: 'fullscreen',
     },
@@ -13,4 +14,6 @@ const meta: Meta<typeof Home> = {
 export default meta;
 type Story = StoryObj<typeof Home>;
 
-export const HomePage: Story = {};
+export const HomePage: Story = {
+    args: {},
+};

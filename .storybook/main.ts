@@ -9,22 +9,26 @@ const config: StorybookConfig = {
     '../src/app/**/*.mdx',
     '../src/app/**/stories.@(js|jsx|ts|tsx)'
   ],
+
   addons: [
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
     '@storybook/addon-a11y',
     'storybook-addon-pseudo-states',
+    '@chromatic-com/storybook'
   ],
+
   framework: {
     name: "@storybook/nextjs",
     options: {},
   },
-  docs: {
-    autodocs: "tag",
-  },
+
+  docs: {},
+
   staticDirs: ['../public'],
-  webpackFinal: async config => {
+
+  webpackFinal: async (config) => {
     if (config.resolve) {
       config.resolve.plugins = [new TsconfigPathsPlugin()];
       config.resolve.alias = {
@@ -52,8 +56,13 @@ const config: StorybookConfig = {
 
     return config;
   },
+
   env: config => ({
     ...config,
   }),
+
+  typescript: {
+    reactDocgen: 'react-docgen-typescript'
+  }
 };
 export default config;
