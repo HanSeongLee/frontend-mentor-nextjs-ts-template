@@ -1,5 +1,11 @@
 # 🚦 CHANGELOG
 
+## [1.3.0](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/compare/v1.2.0...v1.3.0) (2024-11-22)
+
+### ✨ Features
+
+* **storybook:** upgrade storybook from v7 to v8 ([d32c609](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/commit/d32c6095a65aa89633a2da803144791c3de87cf3))
+
 ## [1.2.0](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/compare/v1.1.1...v1.2.0) (2024-11-17)
 
 ### ✨ Features
