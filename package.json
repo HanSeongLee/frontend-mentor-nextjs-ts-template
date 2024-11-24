@@ -20,6 +20,12 @@
   "dependencies": {
     "@semantic-release/github": "^9.2.3",
     "@sentry/nextjs": "^7.64.0",
+    "@stackflow/config": "^1.2.0",
+    "@stackflow/core": "^1.1.0",
+    "@stackflow/plugin-basic-ui": "^1.10.1",
+    "@stackflow/plugin-history-sync": "^1.7.0",
+    "@stackflow/plugin-renderer-basic": "^1.1.13",
+    "@stackflow/react": "^1.4.1",
     "@svgr/webpack": "^6.2.1",
     "@types/classnames": "^2.3.1",
     "include-media": "^1.4.10",
@@ -27,6 +33,7 @@
     "next-sitemap": "^3.1.23",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-lazy-load-image-component": "^1.6.2",
     "sass": "^1.49.8"
   },
   "devDependencies": {
@@ -49,6 +56,7 @@
     "@storybook/theming": "^8.4.5",
     "@types/node": "^20.8.7",
     "@types/react": "^18.2.29",
+    "@types/react-lazy-load-image-component": "^1.6.4",
     "chromatic": "^9.0.0",
     "commitizen": "^4.3.0",
     "conventional-changelog-conventionalcommits": "^8.0.0",
