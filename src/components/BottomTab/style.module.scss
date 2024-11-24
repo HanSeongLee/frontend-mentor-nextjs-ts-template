@@ -1,0 +1,39 @@
+.bottomTab {
+  display: grid;
+  grid-template-columns: 1.5rem 1.5rem 1.5rem 1.5rem 1.5rem;
+  justify-content: space-between;
+  padding: .5rem 7.25% 0;
+  padding-bottom: .375rem;
+  box-shadow: 0 -1px 0 0 #e0e0e0;
+
+  @supports (padding-bottom: constant(safe-area-inset-bottom)) {
+    padding-bottom: calc(.375rem + constant(safe-area-inset-bottom));
+  }
+
+  @supports (padding-bottom: env(safe-area-inset-bottom)) {
+    padding-bottom: calc(.375rem + env(safe-area-inset-bottom));
+  }
+
+  .button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    appearance: none;
+    border: 0;
+    padding: 0;
+    background: none;
+    color: #212124;
+    text-align: left;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+
+    & > .buttonIcon {
+      margin-bottom: .375rem;
+    }
+
+    & > .buttonLabel {
+      font-size: .75rem;
+      white-space: nowrap;
+    }
+  }
+}

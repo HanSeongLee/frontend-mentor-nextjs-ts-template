@@ -1,6 +1,9 @@
 import React from 'react';
+import '@/styles/globals.scss';
 import { Metadata, Viewport } from 'next';
 import { WEBSITE_DESCRIPTION, WEBSITE_OGI, WEBSITE_THEME_COLOR, WEBSITE_TITLE, WEBSITE_URL } from '@/constants/website';
+import '@stackflow/plugin-basic-ui/index.css';
+import ClientStack from '@/components/ClientStack';
 
 export const metadata: Metadata = {
     title: WEBSITE_TITLE,
@@ -36,9 +39,9 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body>
-                {children}
-            </body>
+        <body>
+            <ClientStack />
+        </body>
         </html>
-    )
+    );
 };

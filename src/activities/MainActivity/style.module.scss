@@ -1,0 +1,41 @@
+
+.appBarLeft {
+  display: flex;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-left: .5rem;
+
+  .leftIcon {
+    display: flex;
+    align-items: center;
+    margin-left: .5rem;
+  }
+}
+
+.appBarRight {
+  display: grid;
+  grid-template-columns: 1.5rem 1.5rem;
+  gap: 1rem;
+  margin-right: .5rem;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.scrollable {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
