@@ -14,5 +14,4 @@ export const config = defineConfig({
         }
     ],
     transitionDuration: 270,
-    initialActivity: () => "MainActivity",
 });
