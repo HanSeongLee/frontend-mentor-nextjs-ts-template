@@ -1,5 +1,6 @@
 import { defineConfig } from '@stackflow/config';
 import { mainActivityLoader } from '@/activities/MainActivity/loader';
+import { articleLoader } from '@/activities/ArticleActivity/loader';
 
 export const config = defineConfig({
     activities: [
@@ -11,6 +12,7 @@ export const config = defineConfig({
         {
             name: "ArticleActivity",
             path: "/articles/:articleId",
+            loader: articleLoader,
         }
     ],
     transitionDuration: 270,

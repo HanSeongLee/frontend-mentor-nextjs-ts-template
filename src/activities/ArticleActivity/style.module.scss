@@ -1,0 +1,77 @@
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 1.15;
+
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .image {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background: #f2f3f6;
+  }
+
+  .imageInner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .content {
+    margin: 1.5rem 1rem 0;
+    padding-bottom: 0.25rem;
+    box-shadow: 0 1px 0 0 #0017580d;
+  }
+
+  .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.625rem;
+  }
+
+  .subtitle {
+    font-size: 0.8125rem;
+    color: #868b94;
+    margin-bottom: 1rem;
+  }
+
+  .body {
+    font-size: 1rem;
+    line-height: 1.375rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .section {
+    box-shadow: 0 1px 0 0 #0017580d;
+
+    &:last-child {
+      box-shadow: none;
+    }
+  }
+
+  .sectionTitle {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1.25rem 1rem;
+  }
+
+  .recommenderGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    padding: 0.25rem 1rem 1rem;
+  }
+}

@@ -9,8 +9,8 @@ import ArticleActivity from '@/activities/ArticleActivity';
 export const { Stack, actions } = stackflow({
     config,
     components: {
-        MainActivity: MainActivity,
-        ArticleActivity: ArticleActivity,
+        MainActivity,
+        ArticleActivity,
     },
     plugins: [
         basicRendererPlugin(),
