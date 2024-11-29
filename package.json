@@ -22,6 +22,7 @@
     "@sentry/nextjs": "^7.64.0",
     "@stackflow/config": "^1.2.0",
     "@stackflow/core": "^1.1.0",
+    "@stackflow/link": "^1.6.0",
     "@stackflow/plugin-basic-ui": "^1.10.1",
     "@stackflow/plugin-history-sync": "^1.7.0",
     "@stackflow/plugin-renderer-basic": "^1.1.13",

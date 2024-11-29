@@ -17,6 +17,9 @@ dependencies:
   '@stackflow/core':
     specifier: ^1.1.0
     version: 1.1.0
+  '@stackflow/link':
+    specifier: ^1.6.0
+    version: 1.6.0(@stackflow/core@1.1.0)(@stackflow/plugin-history-sync@1.7.0)(@stackflow/plugin-preload@1.4.3)(@stackflow/react@1.4.1)(@types/react@18.2.29)(react@18.3.1)
   '@stackflow/plugin-basic-ui':
     specifier: ^1.10.1
     version: 1.10.1(@stackflow/core@1.1.0)(@stackflow/react@1.4.1)(@types/react@18.2.29)(react@18.3.1)
@@ -4507,6 +4510,24 @@ packages:
       react-fast-compare: 3.2.2
     dev: false
 
+  /@stackflow/link@1.6.0(@stackflow/core@1.1.0)(@stackflow/plugin-history-sync@1.7.0)(@stackflow/plugin-preload@1.4.3)(@stackflow/react@1.4.1)(@types/react@18.2.29)(react@18.3.1):
+    resolution: {integrity: sha512-GQJPJJTL2la3+w5baKUAzfzieNSRm7nWuKwq2vjBHygnN668UVpUNwepc96lvaCj75x4u1l6c7w5IOfjCCwPTQ==}
+    peerDependencies:
+      '@stackflow/core': ^1.1.0-canary.0
+      '@stackflow/plugin-history-sync': ^1.6.4-canary.0
+      '@stackflow/plugin-preload': ^1.4.3-canary.0
+      '@stackflow/react': ^1.3.2-canary.0
+      '@types/react': '>=16.8.0'
+      react: '>=16.8.0'
+    dependencies:
+      '@stackflow/core': 1.1.0
+      '@stackflow/plugin-history-sync': 1.7.0(@stackflow/config@1.2.0)(@stackflow/core@1.1.0)(@stackflow/react@1.4.1)(@types/react@18.2.29)(react@18.3.1)
+      '@stackflow/plugin-preload': 1.4.3(@stackflow/core@1.1.0)(@stackflow/plugin-history-sync@1.7.0)(@stackflow/react@1.4.1)(@types/react@18.2.29)(react@18.3.1)
+      '@stackflow/react': 1.4.1(@stackflow/config@1.2.0)(@stackflow/core@1.1.0)(@types/react@18.2.29)(react@18.3.1)
+      '@types/react': 18.2.29
+      react: 18.3.1
+    dev: false
+
   /@stackflow/plugin-basic-ui@1.10.1(@stackflow/core@1.1.0)(@stackflow/react@1.4.1)(@types/react@18.2.29)(react@18.3.1):
     resolution: {integrity: sha512-V/9XLMprm3WVzSl4kLWECov7iuXArex7NKlbxR8cP4Uy+4EnVXay2opNXcHQHrzERuf/RTQb4QilK0CSIlCt7w==}
     peerDependencies:
@@ -4545,6 +4566,22 @@ packages:
       history: 5.3.0
       react: 18.3.1
       url-pattern: 1.0.3
+    dev: false
+
+  /@stackflow/plugin-preload@1.4.3(@stackflow/core@1.1.0)(@stackflow/plugin-history-sync@1.7.0)(@stackflow/react@1.4.1)(@types/react@18.2.29)(react@18.3.1):
+    resolution: {integrity: sha512-WI9Dr0e3lsq6s6Vs4VxsB0j9z+hFbQIO7iipeyDYw8uGzs5gorXqdNnH/S+8Td02sDme1/KRWjVLoorZCAMqPg==}
+    peerDependencies:
+      '@stackflow/core': ^1.1.0-canary.0
+      '@stackflow/plugin-history-sync': ^1.6.4-canary.0
+      '@stackflow/react': ^1.3.2-canary.0
+      '@types/react': '>=16.8.0'
+      react: '>=16.8.0'
+    dependencies:
+      '@stackflow/core': 1.1.0
+      '@stackflow/plugin-history-sync': 1.7.0(@stackflow/config@1.2.0)(@stackflow/core@1.1.0)(@stackflow/react@1.4.1)(@types/react@18.2.29)(react@18.3.1)
+      '@stackflow/react': 1.4.1(@stackflow/config@1.2.0)(@stackflow/core@1.1.0)(@types/react@18.2.29)(react@18.3.1)
+      '@types/react': 18.2.29
+      react: 18.3.1
     dev: false
 
   /@stackflow/plugin-renderer-basic@1.1.13(@stackflow/core@1.1.0)(@stackflow/react@1.4.1)(@types/react@18.2.29)(react@18.3.1):
