@@ -1,5 +1,12 @@
 # 🚦 CHANGELOG
 
+## [1.3.1](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/compare/v1.3.0...v1.3.1) (2024-12-29)
+
+### 🐛 Bug Fixes
+
+* **deps:** fix dependencies audit ([0aeb7d6](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/commit/0aeb7d6cc561e7634069c2f36dda6ade45f95f37))
+* **sentry.client.config:** fix type error ([aeee29c](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/commit/aeee29c1ddf0ef274646d6ed8c5d8c0f166e852f))
+
 ## [1.3.0](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/compare/v1.2.0...v1.3.0) (2024-11-22)
 
 ### ✨ Features
