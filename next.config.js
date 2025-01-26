@@ -37,8 +37,7 @@ module.exports = withSentryConfig(
       silent: true,
 
       dryRun: process.env.NODE_ENV !== 'production',
-    },
-    {
+
       // For all available options, see:
       // https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/
 
