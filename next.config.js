@@ -1,4 +1,6 @@
 const { withSentryConfig } = require('@sentry/nextjs')
+const generateColors = require('./scripts/generateColors');
+const generateTypographyTypes = require('./scripts/generateTypographyTypes');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -8,13 +10,18 @@ const nextConfig = {
     locales: ["en"],
     defaultLocale: "en",
   },
-  webpack(config) {
-    config.module.rules.push({
-      test: /\.svg$/,
-      use: ["@svgr/webpack"]
-    });
-    return config;
-  },
+    webpack(config, { isServer }) {
+        if (isServer) {
+            generateColors();
+            generateTypographyTypes();
+        }
+
+        config.module.rules.push({
+            test: /\.svg$/,
+            use: ["@svgr/webpack"]
+        });
+        return config;
+    },
   // pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js', 'api.ts', 'api.js'],
   sentry: {
     // Use `hidden-source-map` rather than `source-map` as the Webpack `devtool`
