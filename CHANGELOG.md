@@ -1,5 +1,15 @@
 # 🚦 CHANGELOG
 
+## [1.4.0](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/compare/v1.3.1...v1.4.0) (2025-01-26)
+
+### ✨ Features
+
+* **scripts:** add colors and typography types generator scripts ([45ebce8](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/commit/45ebce8be2497133e087418a33f88878c65811a4))
+
+### 🐛 Bug Fixes
+
+* **deps:** fix build errors ([4b036e8](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/commit/4b036e8a2490f906b0733376ef4d9a8f042fb6a8))
+
 ## [1.3.1](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/compare/v1.3.0...v1.3.1) (2024-12-29)
 
 ### 🐛 Bug Fixes
