@@ -1,5 +1,11 @@
 # 🚦 CHANGELOG
 
+## [1.4.1](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/compare/v1.4.0...v1.4.1) (2025-01-27)
+
+### 🐛 Bug Fixes
+
+* **instrumentation.ts:** fix sentry warning ([0350a8a](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/commit/0350a8a32ee6cf412183b6cc021b1665ab852cf6))
+
 ## [1.4.0](https://github.com/HanSeongLee/frontend-mentor-nextjs-ts-template/compare/v1.3.1...v1.4.0) (2025-01-26)
 
 ### ✨ Features
